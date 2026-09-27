@@ -33,6 +33,7 @@ public:
 private:
     void on_book(const std::string& symbol, double bid, double ask, double mid,
                  double microprice, double obi) override {
+
         // TODO(student): THIS is your edge. microprice/obi are free signal
         // inputs (M6) — but using them costs compute, which costs queue
         // position. Everything below is a placeholder.
